@@ -1,6 +1,7 @@
 #!/bin/bash
 
 trap 'store;exit 1' 2
+user$= liz_young2007
 string4=$(openssl rand -hex 32 | cut -c 1-4)
 string8=$(openssl rand -hex 32  | cut -c 1-8)
 string12=$(openssl rand -hex 32 | cut -c 1-12)
